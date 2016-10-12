@@ -319,7 +319,7 @@ Props现在只能单向传递。为了对父组件产生反向影响，子组件
 
 大多数情况下，改变prop值可以用以下选项代替：
 
-- 通过 data 属性，用prop去设置一个data属性的默认值。//todu
+- 通过 data 属性，用prop去设置一个data属性的默认值。
 - 通过 computed 属性。
 
 {% raw %}
@@ -480,7 +480,7 @@ new Vue({
 {% raw %}
 <div class="upgrade-path">
   <h4>Upgrade Path</h4>
-  <p>运行 <a href="https://github.com/vuejs/vue-migration-helper">migration helper</a> 工具找出石勇 <code>debounce</code> 参数的 实例。</p>
+  <p>运行 <a href="https://github.com/vuejs/vue-migration-helper">migration helper</a> 工具找出使用 <code>debounce</code> 参数的 实例。</p>
 </div>
 {% endraw %}
 
@@ -1384,7 +1384,7 @@ vm.$el.remove()
 {% raw %}
 <div class="upgrade-path">
   <h4>升级方式</h4>
-  <p>运行 <a href="https://github.com/vuejs/vue-migration-helper">migration helper</a>找到<code>vm.$remove</code>.。如有遗漏，请参考<strong>控制台错误信息</strong>。</p>
+  <p>运行 <a href="https://github.com/vuejs/vue-migration-helper">migration helper</a>找到<code>vm.$remove</code>。如有遗漏，请参考<strong>控制台错误信息</strong>。</p>
 </div>
 {% endraw %}
 
